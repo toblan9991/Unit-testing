@@ -6,7 +6,7 @@ const characterRoutes = require('./routes/characters');
 const app = express();
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://teegunnerz:YHeyZMq3IXUZAAcd@a4assignmtcluster0.ky4lw7p.mongodb.net/', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://teegunnerz:HowRG47AcBDGRv0N@utestclust.ghglwvu.mongodb.net/', { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Connected to MongoDB'))
   .catch(err => console.error('Could not connect to MongoDB:', err));
 
